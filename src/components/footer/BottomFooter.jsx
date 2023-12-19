@@ -1,7 +1,7 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { Visa, Paypal, Mastercard, Discover, Amex } from 'react-pay-icons'
+import { Visa, Mastercard, Discover, Amex, Worldpay, MobilePay, Applepay } from 'react-pay-icons'
 
 
 
@@ -18,18 +18,18 @@ export default function BottomFooter() {
 				
 					<div className="row">
 						<div className="col-md-12 text-center">
-                                <Router>
+                              
 							<ul className="footer-payments">
 								
-								<li><Link to="#"><Paypal style={{ margin: 10, width: 100 }}/></Link></li>
+								<li><Link to="#"><Worldpay style={{ margin: 10, width: 100 }}/></Link></li>
 								<li><Link to="#"><Mastercard style={{ margin: 10, width: 100 }}/></Link></li>
-								<li><Link to="#"><Discover style={{ margin: 10, width: 100 }}/></Link></li>
-								<li><Link to="#"><Amex style={{ margin: 10, width: 100 }}/></Link></li>
+								<li><Link to="#"><Applepay style={{ margin: 10, width: 100 }}/></Link></li>
+								<li><Link to="#"><MobilePay style={{ margin: 10, width: 100 }}/></Link></li>
 								<li><Link to="#"><Visa style={{ margin: 10, width: 100 }}/></Link></li>
                                 
 							</ul>
 					
-                            </Router>
+                           
 						</div>
 					</div>
 					

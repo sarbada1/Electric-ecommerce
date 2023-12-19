@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 export default function TopFooter() {
     return (
         <>
-        <Router>
+      
             <div className="section">
 
                 <div className="container">
@@ -70,7 +70,7 @@ export default function TopFooter() {
                 </div>
 
             </div>
-            </Router>
+         
         </>
     )
 }

@@ -10,7 +10,7 @@ export default function ProductTop() {
   <div className="col-md-12">
         <div className="row">
           <div className="products-tabs">
-            <Router>
+           
               <div id="tab1" className="tab-pane active">
                 <div className="products-slick" data-nav="#slick-nav-1">
 
@@ -138,7 +138,7 @@ export default function ProductTop() {
                 </div>
                 <div id="slick-nav-1" className="products-slick-nav"></div>
               </div>
-            </Router>
+      
           </div>
         </div>
       </div>

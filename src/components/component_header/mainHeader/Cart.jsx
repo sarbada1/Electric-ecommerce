@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 export default function Cart() {
   return (
     <div className="dropdown">
-      <Router>
+     
       <Link to="#" className="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
         <div>
       <FontAwesomeIcon icon={faShoppingCart} />
@@ -61,7 +61,7 @@ export default function Cart() {
           </Link>
         </div>
       </div>
-      </Router>
+   
     </div>
   );
 }

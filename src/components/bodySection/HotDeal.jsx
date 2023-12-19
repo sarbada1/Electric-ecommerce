@@ -39,9 +39,9 @@ export default function HotDeal() {
 							</ul>
 							<h2 className="text-uppercase">hot deal this week</h2>
 							<p>New Collection Up to 50% OFF</p>
-                            <Router>
+                            
 							<Link className="primary-btn cta-btn" to="#">Shop now</Link>
-                            </Router>
+                         
 						</div>
 					</div>
 				</div>

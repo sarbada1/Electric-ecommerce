@@ -7,7 +7,7 @@ export default function MenuToggle() {
     return (
         <>
             <div className="menu-toggle">
-                <Router>
+               
                 <Link to="#">
                     <div>
                     
@@ -16,7 +16,7 @@ export default function MenuToggle() {
                     
                     <span>Menu</span>
                 </Link>
-                </Router>
+             
             </div>
         </>
     )

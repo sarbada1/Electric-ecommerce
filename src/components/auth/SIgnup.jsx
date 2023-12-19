@@ -20,7 +20,7 @@ export default function SIgnup() {
 								<button className="newsletter-btn"><AiFillRedEnvelope/> Subscribe</button>
 							</Form>
 							<ul className="newsletter-follow">
-                                <Router>
+                            
 								<li>
 									<Link to="#"><AiFillFacebook/></Link>
 								</li>
@@ -33,7 +33,7 @@ export default function SIgnup() {
 								<li>
 									<Link to="#"><AiFillGithub /></Link>
 								</li>
-                                </Router>
+                             
 							</ul>
 						</div>
 					</div>

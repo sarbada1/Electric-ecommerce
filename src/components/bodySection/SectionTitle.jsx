@@ -9,12 +9,12 @@ export default function SectionTitle() {
 							<h3 className="title">New Products</h3>
 							<div className="section-nav">
 								<ul className="section-tab-nav tab-nav">
-                  <Router>
+         
 									<li className="active"><Link data-toggle="tab" to="#tab1">Laptops</Link></li>
 									<li><Link data-toggle="tab" to="#tab1">Smartphones</Link></li>
 									<li><Link data-toggle="tab" to="#tab1">Cameras</Link></li>
 									<li><Link data-toggle="tab" to="#tab1">Accessories</Link></li>
-                  </Router>
+               
 								</ul>
 							</div>
 						</div>

@@ -11,7 +11,7 @@ export default function Collection() {
         <div className="container">
 
           <div className="row">
-            <Router>
+         
               <div className="col-md-4 col-xs-6">
                 <div className="shop">
                   <div className="shop-img">
@@ -49,7 +49,7 @@ export default function Collection() {
                   </div>
                 </div>
               </div>
-            </Router>
+           
           </div>
 
         </div>

@@ -7,7 +7,7 @@ export default function WishList() {
   return (
     <>
       <div>
-      <Router>
+     
       <Link to="#" className="wishlist-link">
         <div>
           <FontAwesomeIcon icon={faHeartCircleBolt} />
@@ -15,7 +15,7 @@ export default function WishList() {
         <span>Your Wishlist</span>
         <div className="qty">2</div>
       </Link>
-    </Router>
+   
       </div>
     </>
   )
